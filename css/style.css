@@ -1,0 +1,335 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main styling */
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+    /* line spacing */
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+    /* this is used to remove decoration */
+}
+h1,
+h2,
+h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+/* utility classes */
+
+/* utilize for mobile use */
+
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+#navbar{
+background: rgb(0, 119, 139);
+color: #ffffff;
+overflow: auto;
+}
+
+#navbar a{
+    color: #ffffff;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    transition: 0.6s ease;
+
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #ffffff;
+    color: blue;
+    
+}
+
+/* All about me */
+
+#showcase{
+    background: url(../ilaw.jpg) no-repeat center center/cover;
+    height: 600px;
+    
+}
+
+#showcase .showcase-content{
+    color: #eb6e08;
+    text-align: center;
+    padding: 170px;
+
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+.text-primary{
+    color: darkgoldenrod;
+}
+.lead{
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    background: rgb(187, 65, 65);
+    padding: 13px 20px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgb(47, 47, 177);
+    color: rgb(187, 20, 20);
+
+}
+/* Educational Background */
+
+#showcase2{
+    background: url(../s.jpg)no-repeat center center/cover;
+    height: 800px;
+}
+.showcase-content2{
+    margin-top: 20px;
+    border-top: 1px dashed #000;
+    color: #20044d;
+    text-align: center;
+    padding: 100px;
+}
+.text{
+    float: left;
+    margin-bottom: 20px;
+    padding: 50px;
+    margin-right: 10px;
+}
+
+.text2{
+float: right;
+margin: 20px;
+padding: 10px;
+margin-left: 10px;
+color: #db5252;
+}
+
+.pic{
+    display: block;
+    margin: 0 left;
+    width: 418;
+    height: 230;
+    float: right;
+    padding: 50px;
+       
+}
+.pic2{
+    display: block;
+    margin: 0;
+    float: left;
+    padding: 150px;
+    margin-top: 50px;
+    
+    
+}
+.educ{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.serv{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: auto;
+}
+/* Services */
+
+#showcase3{
+    background: url(../1.jpg.jpg)no-repeat center center/cover;
+    height: 600px;
+}
+
+.ices{
+    text-align: left;
+    border-bottom:  1px dashed #333;
+    font-size: 50px;
+    margin-top: 10px auto;
+    width: auto;
+}
+.serv{
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;  
+    font-size: 10px;
+}
+
+.serv ul li{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: auto 50px;
+    background-color: #eee;
+    box-shadow: 3px 3px 10px #aeaeae,
+    -4px --4px 10px white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    color: #333;
+    cursor: pointer;
+    transition: .5s;
+}
+.serv ul li:nth-child(1):hover{
+    color: #eee;
+    border-radius: 60%;
+    background-color:yellow;
+}
+
+.serv ul li:nth-child(2):hover{
+    color: #eee;
+    border-radius: 60%;
+    background-color:red;
+}
+
+.serv ul li:nth-child(3):hover{
+    color: #eee;
+    border-radius: 60%;
+    background-color:green;
+}
+.about{
+    font-size: 20px;
+    background: blue;
+}
+.logo{
+    padding: 30px;
+}
+/* Contact US */
+#showcase4{
+    background: url(../contact.jpg)no-repeat center center/cover;
+    height: 600px;
+}
+.cont{
+    padding-top:30px;
+    text-align: left;
+    border-bottom: 1px dashed #000;
+    margin-top: 10px auto;
+    width: auto;
+   
+}
+input,textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 70%;
+    
+}
+.send{
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff;
+    background: rgb(12, 33, 221);
+    padding: 13px 20px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    margin-left: 310px;
+}
+.showcase-content4{
+    margin-left: 800px;
+}
+.cwd{
+    text-align: center;
+    font-size: 10px;
+    border-top: 1px solid #000;
+}
+.p{
+    margin: 0;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+}
+.icon ul li{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: auto 50px;
+    background-color: #eee;
+    box-shadow: 3px 3px 10px #aeaeae,
+    -4px --4px 10px white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    color: #333;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+.icon ul li:nth-child(1):hover{
+color: #eee;
+border-radius: 60%;
+background-color: blue;
+}
+
+.icon ul li:nth-child(2):hover{
+    color: #eee;
+border-radius: 60%;
+background-color: #c13584;
+    
+}
+
+.icon ul li:nth-child(3):hover{
+    color: #eee;
+border-radius: 60%;
+background-color: #00acee;
+}
+.wrapper ul{
+list-style: none;
+margin: 2px;
+}
+.wrapper ul li{
+    background: #262626;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    position: relative;
+    font-size: 14px;
+}
